@@ -15,6 +15,7 @@ do
     Console.WriteLine("7. Найти 1 процент от числа");
     Console.WriteLine("8. Найти факториал из числа");
     Console.WriteLine("9. Выйти из программы");
+    Console.WriteLine("10. Пасхалка");
     choice = Convert.ToInt32(Console.ReadLine());
     switch (choice)
     {
@@ -94,6 +95,13 @@ do
             Console.WriteLine("Результат " + z);
             Console.WriteLine();
             break;
+        case 10:
+            Console.WriteLine("Never gonna give you up");
+            Console.WriteLine("Never gonna let you down");
+            Console.WriteLine("Never gonna run around and desert you");
+            Console.WriteLine("Never gonna make you cry");
+            Console.WriteLine("Never gonna say goodbye");
+            Console.WriteLine("Never gonna tell a lie and hurt you");
     }
 }
 while (choice != 9);
